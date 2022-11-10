@@ -1,5 +1,23 @@
-.layout {
-    display: grid;
-    grid-template-columns: 350px auto 350px;
-    margin: 0 auto;
+div {
+    display: block;
+}
+
+.top-bar {
+    background-color: rgb(238, 238, 238);
+    box-shadow: 4px 4px 8px #7c7c7c;
+    height: 50px;
+}
+
+.main-logo {
+    width: 50px;
+}
+
+.main-search {
+    margin-bottom: 10px;
+    margin-left: 650px;
+    margin-top: 20px;
+}
+
+.main-heading {
+    text-align: center;
 }
